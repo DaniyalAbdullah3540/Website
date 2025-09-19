@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDR TechMed — Healthcare Technology</title>
+  <meta name="description" content="IDR TechMed provides innovative healthcare technology services with trust and modern solutions.">
+
+  <!-- Favicon -->
+   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <link  rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-row">
+      <div class="logo">
+        <a href="index.html">
+          IDR TechMed
+        </a>
+      </div>
+
+     
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Innovating Healthcare Technology</h1>
+      <p>Building trust with modern solutions for better healthcare.</p>
+      <a href="services.html" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Services Preview -->
+  <section class="services-preview" id="services">
+    <h2>Our Core Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fas fa-stethoscope"></i>
+        <h3>Medical Consulting</h3>
+        <p>Professional consulting services for healthcare technology adoption.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-laptop-medical"></i>
+        <h3>Tech Integration</h3>
+        <p>Seamless integration of digital solutions for hospitals & clinics.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-user-shield"></i>
+        <h3>Data Security</h3>
+        <p>Secure healthcare data management with innovative systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section class="about-preview">
+    <div class="about-text">
+  <h2>About IDR TechMed</h2>
+  <p>We are dedicated to transforming healthcare through innovative technology and consulting services in partnership with OConsultinga.com.</p>
+  
+  <div class="center-btn">
+    <a href="about.html" class="btn">Learn More</a>
+  </div>
+</div>
+<br>
+
+
+  <!-- Contact CTA -->
+  <section class="contact-cta">
+    <h2>Ready to Transform Healthcare?</h2>
+    <p>Contact us today to learn how IDR TechMed can help you innovate with confidence.</p>
+    <br>
+    <a href="contact.html" class="btn">Get in Touch</a>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> IDR TechMed. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // footer year
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('year').textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>
